@@ -1,0 +1,327 @@
+body{
+	background-color: #DBDCD2;
+	font-size: 1em;
+	font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#contenedorArbol{
+	width: 700px; 
+	height: 400px; 
+	border-style: solid; 
+	position: absolute; 
+	left: 600px; 
+	top: 200px;
+	border-style: dotted;
+   border-width: 3px
+}
+
+#Mensajes{
+	font-size: 20px;
+	font-family: serif;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+#cajaMetodos1{
+	width: 500px; 
+	height: 350px; 
+	border-style: solid;  
+ 	float: left;
+    border: 1px solid #3F3B3B;
+    margin: 2em;
+    border-style: dotted;
+   border-width: 2px
+}
+
+#cajaMetodos2{
+	width: 200px; 
+	height: 250px; 
+	border-style: solid;  
+ 	float: left;
+    border: 1px solid #3F3B3B;
+    margin: 2em;
+    border-style: dotted;
+   border-width: 2px;
+   position: static; 
+	left: 40px; 
+	top: 580px;
+	font-size: 0.9em;
+}
+
+#cajaMetodos3{
+	width: 200px; 
+	height: 250px; 
+	border-style: solid;  
+ 	float: left;
+    border: 1px solid #3F3B3B;
+    margin: 2em;
+    border-style: dotted;
+   border-width: 2px;
+   position: absolute; 
+	left: 240px; 
+	top: 0.5px;
+	font-size: 0.9em;
+}
+
+#caja2{
+	width: 500px; 
+	height: 300px; 
+	border-style: solid;  
+ 	float: left;
+    border: 1px solid #3F3B3B;
+    margin: 2em;
+    border-style: dotted;
+   	border-width: 2px; 
+   	position: absolute;
+	left: 10px; 
+	top: 550px;
+}
+
+input#btnCrearArbol{
+	padding: 2px 10px;
+	font-size: 0.9em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #465DA1;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #203E93;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnCrearArbol:hover{
+	background-color: #7CADDB;
+}
+
+input#btnAgregarNodo{
+	padding: 2px 10px;
+	font-size: 0.9em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #465DA1;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #203E93;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnAgregarNodo:hover{
+	background-color: #7CADDB;
+}
+
+input#btnEliminarNodo{
+	padding: 2px 10px;
+	font-size: 0.9em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #D60919;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #65040B;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnEliminarNodo:hover{
+	background-color: #E23543;
+}
+
+input#btnContarNodos{
+	padding: 5px 20px;
+	font-size: 1em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #9F9012;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px#73670A;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnContarNodos:hover{
+	background-color: #EDDC50;
+}
+
+input#btnContarNumerosPares{
+	padding: 5px 20px;
+	font-size: 1em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #9F9012;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px#73670A;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnContarNumerosPares:hover{
+	background-color: #EDDC50;
+}
+
+input#btnRecorridoPorNiveles{
+	padding: 5px 20px;
+	font-size: 1em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #36AC23;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #166F08;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnRecorridoPorNiveles:hover{
+	background-color: #65E550 ;
+}
+
+input#btnRecorridoPreOrden{
+	padding: 5px 20px;
+	font-size: 1em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #2188CA;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #064F7D ;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnRecorridoPreOrden:hover{
+	background-color: #76ABCC ;
+}
+
+input#btnRecorridoInOrden{
+	padding: 5px 20px;
+	font-size: 1em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #2188CA;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #064F7D ;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnRecorridoInOrden:hover{
+	background-color: #76ABCC ;
+}
+
+input#btnReorridoPosOrden{
+	padding: 5px 20px;
+	font-size: 1em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #2188CA;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #064F7D ;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnReorridoPosOrden:hover{
+	background-color: #76ABCC;
+}
+
+input#btnArbolCompleto{
+	padding: 5px 20px;
+	font-size: 1em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #36AC23;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #166F08;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnArbolCompleto:hover{
+	background-color: #65E550;
+}
+
+input#btnContarPorNiveles{
+		padding: 5px 20px;
+	font-size: 1em;
+		font-style: oblique;
+	font-weight: bold;
+	background-color: #2469D5;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #0A3982;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnContarPorNiveles:hover{
+	background-color: #7698CF;
+}
+input#btnVerNodosHojas{
+	padding: 5px 20px;
+	font-size: 1em;
+	font-style: oblique;
+	font-weight: bold;
+	background-color: #2469D5;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #0A3982;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnVerNodosHojas:hover{
+	background-color: #7698CF;
+}
+
+input#btnCalcularAltura{
+		padding: 5px 20px;
+	font-size: 1em;
+		font-style: oblique;
+	font-weight: bold;
+	background-color: #2469D5;
+	border: 0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-box-shadow: 0px 4px 0px #0A3982;
+	-webkit-transition: background-color .25s;
+}
+
+input#btnCalcularAltura:hover{
+	background-color: #7698CF;
+}
+
+
+
